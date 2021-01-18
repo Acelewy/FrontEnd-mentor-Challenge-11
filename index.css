@@ -171,6 +171,7 @@ li {
     color: white;
     transform: translateY(-100%);
     transition: transform 0.2s ease;
+    z-index: 1000;
 }
 
 .showNav {
