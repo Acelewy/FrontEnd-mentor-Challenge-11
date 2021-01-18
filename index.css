@@ -108,3 +108,31 @@ a {
 a:hover {
     color: white;
 }
+
+.link {
+    padding-top: 30px;
+}
+
+.foot {
+    padding: 47px;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding-top: 20px;
+}
+
+.icons {
+    padding-top: 50px;
+    padding-bottom: 28px;
+}
+
+.icon {
+    padding-left: 10px;
+}
