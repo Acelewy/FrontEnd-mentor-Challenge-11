@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Alata', sans-serif;
+    font-size: 15px;
+}
+
+.section-1 {
+    height: 85vh;
+    font-family: 'Josefin Sans', sans-serif;
+    background-image: url('./images/mobile/image-hero.jpg');
+    background-position: center;
+    background-size: cover;
+    padding: 22px;
+    padding-top: 50px;
+}
+
+.josefin {
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top: 43px;
+    font-size: 35px;
+}
+
+.interactive-text {
+    padding: 22px 35px;
+}
+
+.logo-hamburger {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 120px;
+}
+
+.hamburger {}
+
+button {
+    background: none;
+    width: 9%;
+    object-fit: contain;
+    outline: none;
+    border: none;
+}
+
+.txt1 {
+    border: 1px solid white;
+    color: white;
+}
+
+.logo-text {
+    font-size: 40px;
+    padding: 27px;
+    font-weight: 300;
+}
+
+.section-2 {
+    text-align: center;
+    padding: 0px 2px;
+}
+
+.interactive {
+    padding-top: 71px;
+    width: 87%;
+}
+
+.section-3 {
+    text-align: center;
+}
+
+.images {
+    width: 90vw;
+}
+
+.earth {
+    position: relative;
+    padding-top: 20px;
+}
+
+.position {
+    position: absolute;
+    left: 30px;
+    color: white;
+    z-index: 2;
+    bottom: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+}
+
+.see-all {
+    padding: 10px;
+    border: 1px solid black;
+    margin: 20px 108px;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.see-all:hover {
+    background-color: black;
+}
+
+a:hover {
+    color: white;
+}
