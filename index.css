@@ -27,12 +27,14 @@ body {
 
 .interactive-text {
     padding: 22px 35px;
+    color: hsl(0, 0%, 55%);
 }
 
 .logo-hamburger {
     display: flex;
     justify-content: space-between;
     padding-bottom: 120px;
+    z-index: 150;
 }
 
 .hamburger {}
@@ -111,6 +113,7 @@ a:hover {
 
 .link {
     padding-top: 30px;
+    margin-bottom: 78px;
 }
 
 .foot {
@@ -135,4 +138,42 @@ li {
 
 .icon {
     padding-left: 10px;
+}
+
+.gray {
+    color: hsl(0, 0%, 55%);
+}
+
+.showClose {
+    background-image: url("./images/icon-close.svg");
+}
+
+.menu {
+    padding-top: 27px;
+}
+
+.menuLink {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+    color: hsl(0, 0%, 55%);
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: black;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    color: white;
+    transform: translateY(-100%);
+    transition: transform 0.2s ease;
+}
+
+.showNav {
+    padding: 43px;
+    transform: translateY(0);
 }
